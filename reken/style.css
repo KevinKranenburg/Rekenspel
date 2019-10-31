@@ -1,0 +1,97 @@
+body{
+    background-image: url(foto/lfndtoirttvx.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper{
+   background-color: #fff;
+   width: 300px;
+   height: 450px;
+   border: solid #6e00db 5px;
+   margin-left: 690px;
+   margin-top: 200px;
+   text-align: center;
+   border-radius: 25px;
+   opacity: 0.8;
+}
+
+#wrapper > *{
+    margin: 3px;
+}
+
+#wrapper > *:not(:first-child){
+    position: relative;
+
+}
+
+#head{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #b66cff;
+    text-align: center;
+}
+
+#feedback{
+
+  width: 180px;
+  display: block;
+  text-align: center;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+#myAnswer{
+    background-color: #fff;
+    height: 40px;
+    width: 200px;
+}
+
+#myAssignment{
+
+    font-size: 3em;
+      color: #000;
+      text-align: center;
+}
+
+input[type=text] {
+    border: 2px solid #6e00db;
+    border-radius: 10px;
+  }
+
+  p {
+    -webkit-text-stroke: 1px #6e00db;
+    color: white;
+    text-shadow:
+        3px 3px 0 #000,
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+       -1px 1px 0 #000,
+        1px 1px 0 #000;
+ }
+ 
+ .footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+    border-top: 5px solid #6e00db;
+    height: 45px;
+  }
+  
+
+  
+  
+  
